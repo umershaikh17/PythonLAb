@@ -1,0 +1,80 @@
+# PROBLEM 1 
+# The population of a town is 198568. Out of them 45312 are men and 35678 are women. Find the number of children in the town.
+
+#assigning varaibles for given data
+
+total_population_of_the_town = 198568
+population_of_men = 45312
+population_of_women = 35678
+
+#calculating the number of children in the town
+
+population_of_children = (total_population_of_the_town - (population_of_men + population_of_women))
+
+#output 
+
+print(" The Number of children in the town are" , population_of_children)
+
+
+
+# PROBLEM 2
+# A shopkeeper has 2425 boxes of 24 pencils each. How many pencils do all the boxes have in all?
+
+#assigning varaibles for the given data 
+
+total_number_of_pencil_boxes = 2425
+number_of_pencils_in_each_boxes = 24
+
+#calculating the total number of pencil in all the boxes 
+
+total_pencils_in_all_the_boxes = total_number_of_pencil_boxes * number_of_pencils_in_each_boxes
+
+#output
+
+print("total number of pencils in all the boxes" , total_pencils_in_all_the_boxes  )
+
+
+
+
+
+# PROBLEM 3
+#There are 86 rooms in a school. 4356 students study there. Equal number of students sits in each room.
+# Find the number of students sitting in one room . 
+
+#assigning varaibles for the given data 
+
+total_number_of_rooms = 86
+number_of_students = 4356
+
+#calculating the total number of students sitting in one room 
+
+number_of_students_sitting_in_one_room = number_of_students // total_number_of_rooms
+
+#output 
+
+print ("number of students sitting in one room " , number_of_students_sitting_in_one_room )
+
+
+
+
+
+# PROBLEM 4 
+# Maria bought 96 toys priced equally for $12960. The amount of $1015 is still left with her.
+# Find the cost of each toy and the amount she had.
+
+#assigning varaibles for the given data 
+
+number_of_toys_brought_by_Maria = 96
+Total_cost = 12960
+amount_left = 1015
+
+#calculating cost of each toy 
+
+cost_of_each_toy = Total_cost // number_of_toys_brought_by_Maria 
+
+print("cost of each toy" , cost_of_each_toy )
+
+amount_she_had = (Total_cost + amount_left )
+
+print("amount Maria had" , amount_she_had )
+
